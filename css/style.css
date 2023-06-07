@@ -35,7 +35,7 @@ body {
     height: 10px;
     border: none;
 }
-.historia {
+.historia, .juegos {
     background-color: antiquewhite;
     opacity: 0.8;
     display: flex;
@@ -72,4 +72,12 @@ footer{
 }
 .foot{
     text-decoration: none;
+}
+h2 {
+    padding-left: 3rem;
+}
+.listaJuegos {
+    color: black;
+    border: 50px;
+    padding-left: 5rem;
 }
