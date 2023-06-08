@@ -150,7 +150,7 @@ h2 {
     margin: 10px;
     padding: 10px;
 }
-.manga, .anime{
+.manga{
     background-color: gray;
     opacity: 0.9;
     display: flex;
@@ -171,6 +171,21 @@ h2 {
 .imgManga {
     padding: 10px;
 }
-.historiaManga {
-    font-size:x-large;
+.historiaDelAnime{
+    background-color: gray;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0.5rem;
 }
+.laHistoriaAnime {
+    display: flex;
+    color: black;
+    font-size: large;
+    border: 50px;
+    padding-left: 3rem;
+
+}
+
