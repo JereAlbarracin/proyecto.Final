@@ -162,7 +162,7 @@ h2 {
 .foot3, .foot4{
     background-color: gray;
     color: white;
-    font-size: x-large;
+    font-size: large;
     opacity: 0.8;
     padding: 2rem;
     display: flex;
@@ -186,6 +186,8 @@ h2 {
     font-size: large;
     border: 50px;
     padding-left: 3rem;
-
+}
+.cancion {
+    padding-left: 3rem;
 }
 
