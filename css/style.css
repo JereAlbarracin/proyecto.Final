@@ -72,14 +72,16 @@ a:visited{
 .foot1, .foot2{
     background-color: antiquewhite;
     font-size: x-large;
+    max-width: 94%;
+    margin: auto;
     opacity: 0.8;
     padding: 2rem;
     display: flex;
     justify-content: center;
 }
-/* .foot{
-    text-decoration: none;
-} */
+ .foot{
+    padding-left:5px;
+} 
 h2 {
     padding-left: 3rem;
 }
@@ -163,6 +165,8 @@ h2 {
     background-color: gray;
     color: white;
     font-size: large;
+    max-width: 94%;
+    margin: auto;
     opacity: 0.8;
     padding: 2rem;
     display: flex;
@@ -190,4 +194,77 @@ h2 {
 .cancion {
     padding-left: 3rem;
 }
-
+.foot5{
+    background-color: gray;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+    font-size: large;
+    opacity: 0.7;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    /* border: 3px solid black; */
+    opacity: 0.9;
+    max-width: 90%;
+    margin:auto;
+    margin-top: 1rem;
+}
+.formulario{
+    /* border: 3px solid blue; */
+    border-top: 2px solid blue;
+    color: white;
+    padding: 30px 50px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    background: linear-gradient(
+    0deg,
+    rgba(170, 158, 213, 1) 0%,
+    rgba(0, 0, 0, 1) 50%
+  );
+}
+.formTitulo {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.formEstilo{
+    margin-bottom: 30px;
+}
+.formEstilo label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.formEstilo input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white
+}
+.formEstilo input:focus + label {
+    font-weight: bold;
+    color: gray;
+  }
+.botonEnviar input {
+    background: black;
+    color: white;
+    padding: 10px 50px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+}
+.botonEnviar input:hover {
+    background: grey;
+    color: black;
+    transition: 0.5s;
+}
