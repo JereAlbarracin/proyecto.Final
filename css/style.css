@@ -1,21 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
 .inicio {
     background-image: url(../img/pokemon-wallpaper.jpeg);
     background-size: 100%;
 }
-.tituloGrande{
-    position:relative;
-    padding-left: 20rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+
+.tituloGrande {
+    position: relative;
+
+    display: block;
+    margin: auto;
+    margin-top: 40px;
 }
+
 .bolas {
     vertical-align: middle;
 }
+
 .menu {
     display: flex;
     justify-content: space-around;
@@ -28,10 +33,12 @@
     margin: 10px;
     padding: 10px;
 }
+
 .decoMenu {
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: black;
 }
 
@@ -41,6 +48,7 @@ a:visited{
     height: 10px;
     border: none;
 }
+
 .historia {
     background-color: antiquewhite;
     opacity: 0.8;
@@ -62,15 +70,133 @@ a:visited{
     border: 50px;
     padding-left: 15px;
 }
-.video{
+
+.video {
     padding-left: 1rem;
 }
-.imagenpk{
+
+.imagenpk {
     padding-right: 2rem;
     padding-top: 4rem;
 }
-.foot1, .foot2{
+
+.foot1,
+.foot2 {
     background-color: antiquewhite;
+    font-size: large;
+    max-width: 94%;
+    margin: auto;
+    opacity: 0.8;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    padding-left: 5px;
+}
+
+h2 {
+    padding-left: 3rem;
+}
+
+.listaJuegos {
+    display: flex;
+    color: black;
+    border: 50px;
+    padding-left: 5rem;
+}
+
+.juegos {
+    background-color: antiquewhite;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0.5rem;
+}
+
+.gbc {
+    padding-left: 25rem;
+}
+
+.n64 {
+    padding-left: 35rem;
+}
+
+.gamecube {
+    padding-left: 32rem;
+}
+
+.gba {
+    padding-left: 28rem;
+}
+
+.wii {
+    padding-left: 21rem;
+}
+
+.nds {
+    padding-left: 11rem;
+}
+
+.nintendo3ds {
+    padding-left: 27rem;
+}
+
+.switch {
+    padding-left: 20rem;
+}
+
+.celu {
+    padding-left: 35rem;
+}
+
+.pagJuegos {
+    background-image: url(../img/regiones.jpg);
+    background-size: 100%;
+}
+
+.pagManga {
+    background-image: url(../img/pokeManga.jpeg);
+    background-size: 100%;
+}
+
+.pagAnime {
+    background-image: url(../img/pokeAnime.jpg);
+    background-size: 100%;
+}
+
+.menu3,
+.menu4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 10px;
+}
+
+.manga {
+    background-color: gray;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0.5rem;
+}
+
+.foot3,
+.foot4 {
+    background-color: gray;
+    color: black;
     font-size: x-large;
     max-width: 94%;
     margin: auto;
@@ -79,103 +205,12 @@ a:visited{
     display: flex;
     justify-content: center;
 }
- .foot{
-    padding-left:5px;
-} 
-h2 {
-    padding-left: 3rem;
-}
-.listaJuegos {
-    display: flex;
-    color: black;
-    border: 50px;
-    padding-left: 5rem;
-}
-.juegos{
-    background-color: antiquewhite;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 0.5rem;
-}
-.gbc {
-    padding-left: 25rem;
-}
-.n64{
-    padding-left: 35rem;
-}
-.gamecube {
-    padding-left: 32rem;
-}
-.gba{
-    padding-left: 28rem;
-}
-.wii{
-    padding-left: 21rem;
-}
-.nds{
-    padding-left: 11rem;
-}
-.nintendo3ds{
-    padding-left: 27rem;
-}
-.switch{
-    padding-left: 20rem;
-}
-.celu{
-    padding-left: 35rem;
-}
-.pagJuegos {
-    background-image: url(../img/regiones.jpg);
-    background-size: 100%;
-}
-.pagManga {
-    background-image: url(../img/pokeManga.jpeg);
-    background-size: 100%;
-}
-.pagAnime {
-    background-image: url(../img/pokeAnime.jpg);
-    background-size: 100%;
-}
-.menu3, .menu4 {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    background-color: gray;
-    opacity: 0.9;
-    margin: 10px;
-    padding: 10px;
-}
-.manga{
-    background-color: gray;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 0.5rem;
-}
-.foot3, .foot4{
-    background-color: gray;
-    color: white;
-    font-size: large;
-    max-width: 94%;
-    margin: auto;
-    opacity: 0.8;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-}
+
 .imgManga {
     padding: 10px;
 }
-.historiaDelAnime{
+
+.historiaDelAnime {
     background-color: gray;
     opacity: 0.9;
     display: flex;
@@ -184,6 +219,7 @@ h2 {
     padding: 15px;
     margin: 0.5rem;
 }
+
 .laHistoriaAnime {
     display: flex;
     color: black;
@@ -191,10 +227,12 @@ h2 {
     border: 50px;
     padding-left: 3rem;
 }
+
 .cancion {
     padding-left: 3rem;
 }
-.foot5{
+
+.foot5 {
     background-color: gray;
     color: white;
     max-width: 90%;
@@ -205,55 +243,104 @@ h2 {
     display: flex;
     justify-content: center;
 }
-.container{
+
+.container {
     /* border: 3px solid black; */
     opacity: 0.9;
     max-width: 90%;
-    margin:auto;
+    margin: auto;
     margin-top: 1rem;
 }
-.formulario{
-    /* border: 3px solid blue; */
+
+:root {
+    --cfondo: rgb(207, 211, 212);
+    --cfondoForm1: rgba(1, 80, 88, 0.39);
+    --cfondoForm2: rgb(129, 193, 202);
+    --cnegro: black;
+    --ctexto: rgb(14, 81, 88);
+    --ctextoDark: rgb(1, 35, 39);
+    --cblanco: white;
+    --error: rgb(184, 31, 31);
+}
+
+[type="checkbox"] {
+    display: none;
+}
+
+[type="checkbox"]:checked+label::before {
+    background: var(--cnegro);
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+[type="checkbox"]:checked+label {
+    color: var(--cnegro);
+}
+
+.form {
+    /* border: 3px solid green; */
     border-top: 2px solid blue;
-    color: white;
-    padding: 30px 50px;
     max-width: 400px;
+    padding: 30px 50px;
     margin: auto;
     margin-top: 10px;
-    background: linear-gradient(
-    0deg,
-    rgba(170, 158, 213, 1) 0%,
-    rgba(0, 0, 0, 1) 50%
-  );
+    background: linear-gradient(0deg,
+            rgba(170, 158, 213, 1) 0%,
+            rgba(0, 0, 0, 1) 50%);
 }
-.formTitulo {
+
+.form-titulo {
     font-weight: bold;
+    color: white;
     font-size: 30px;
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
     letter-spacing: 3px;
 }
-.formEstilo{
+
+.form-input {
     margin-bottom: 30px;
 }
-.formEstilo label {
+
+.form-input label {
     display: block;
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 15px;
+    color: white;
 }
-.formEstilo input {
+
+.form-input input {
     width: 100%;
     border: none;
+    color: white;
     outline: none;
     background: none;
-    border-bottom: 1px solid white
+    border-bottom: 1px solid gray;
 }
-.formEstilo input:focus + label {
+
+.form-input input:focus+label {
     font-weight: bold;
     color: gray;
-  }
-.botonEnviar input {
+}
+
+.form-termsAndConditions {
+    margin-left: 15px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+}
+
+.form-termsAndConditions label::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    position: absolute;
+    left: -14px;
+}
+
+.form-boton input {
     background: black;
     color: white;
     padding: 10px 50px;
@@ -263,8 +350,21 @@ h2 {
     margin-top: 40px;
     border: none;
 }
-.botonEnviar input:hover {
-    background: grey;
-    color: black;
+
+.form-boton input:hover {
+    background: blue;
     transition: 0.5s;
+}
+
+.mensajeError {
+    color: red;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.mensajeCorrecto {
+    text-align: center;
+    font-weight: bold;
 }
