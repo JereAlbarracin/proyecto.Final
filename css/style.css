@@ -120,7 +120,7 @@ h2 {
 .listaJuegos {
     display: flex;
     color: black;
-    border: 30px;
+    border: 20px;
     /* padding-left: 5rem; */
 }
 
@@ -139,48 +139,66 @@ h2 {
 }
 
 .gbc {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .n64 {
+    width: 45%;
     margin: auto;
     padding-left: 6rem;
+    float: right;
 }
 
 .gamecube {
+    width: 45%;
     margin: auto;
-    padding-left: 5rem;
+    padding-left: 3rem;
+    float: right;
 }
 
 .gba {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .wii {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .nds {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .nintendo3ds {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .switch {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .celu {
+    width: 45%;
     margin: auto;
     padding-left: 5rem;
+    float: right;
 }
 
 .pagJuegos {
