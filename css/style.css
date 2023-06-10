@@ -88,6 +88,10 @@ a:visited {
 
 .video {
     padding-left: 1rem;
+    width: auto;
+    height: auto;
+    max-height: 380px;
+    max-width: 620px;
 }
 
 .imagenpk {
