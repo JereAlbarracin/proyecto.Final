@@ -26,7 +26,8 @@
     justify-content: space-around;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
-    font-size: 30px;
+    text-decoration: none;
+    font-size: x-large;
     color: black;
     background-color: antiquewhite;
     opacity: 0.7;
@@ -36,6 +37,20 @@
 
 .decoMenu {
     text-decoration: none;
+}
+.menu3,
+.menu4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 10px;
 }
 
 a:visited {
@@ -76,8 +91,10 @@ a:visited {
 }
 
 .imagenpk {
-    padding-right: 2rem;
-    padding-top: 4rem;
+    width:45%;
+    height: 40%;
+    padding-right: 1rem;
+    padding-top: 3rem;
 }
 
 .foot1,
@@ -97,14 +114,14 @@ a:visited {
 }
 
 h2 {
-    padding-left: 3rem;
+    margin-right: 25rem;
 }
 
 .listaJuegos {
     display: flex;
     color: black;
-    border: 50px;
-    padding-left: 5rem;
+    border: 30px;
+    /* padding-left: 5rem; */
 }
 
 .juegos {
@@ -116,41 +133,54 @@ h2 {
     padding: 20px;
     margin: 0.5rem;
 }
+.cajaJuegos{
+    margin: auto;
+    max-width: 30%;
+}
 
 .gbc {
-    padding-left: 25rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .n64 {
-    padding-left: 35rem;
+    margin: auto;
+    padding-left: 6rem;
 }
 
 .gamecube {
-    padding-left: 32rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .gba {
-    padding-left: 28rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .wii {
-    padding-left: 21rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .nds {
-    padding-left: 11rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .nintendo3ds {
-    padding-left: 27rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .switch {
-    padding-left: 20rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .celu {
-    padding-left: 35rem;
+    margin: auto;
+    padding-left: 5rem;
 }
 
 .pagJuegos {
@@ -166,21 +196,6 @@ h2 {
 .pagAnime {
     background-image: url(../img/pokeAnime.jpg);
     background-size: 100%;
-}
-
-.menu3,
-.menu4 {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    font-size: x-large;
-    color: white;
-    background-color: gray;
-    opacity: 0.9;
-    margin: 10px;
-    padding: 10px;
 }
 
 .manga {
@@ -245,22 +260,10 @@ h2 {
 }
 
 .container {
-    /* border: 3px solid black; */
     opacity: 0.9;
     max-width: 90%;
     margin: auto;
     margin-top: 1rem;
-}
-
-:root {
-    --cfondo: rgb(207, 211, 212);
-    --cfondoForm1: rgba(1, 80, 88, 0.39);
-    --cfondoForm2: rgb(129, 193, 202);
-    --cnegro: black;
-    --ctexto: rgb(14, 81, 88);
-    --ctextoDark: rgb(1, 35, 39);
-    --cblanco: white;
-    --error: rgb(184, 31, 31);
 }
 
 [type="checkbox"] {
@@ -268,17 +271,16 @@ h2 {
 }
 
 [type="checkbox"]:checked+label::before {
-    background: var(--cnegro);
+    background: black;
     transition: 0.5s;
     transform: rotate(180deg);
 }
 
 [type="checkbox"]:checked+label {
-    color: var(--cnegro);
+    color: black;
 }
 
 .form {
-    /* border: 3px solid green; */
     border-top: 2px solid blue;
     max-width: 400px;
     padding: 30px 50px;
