@@ -39,7 +39,7 @@ function validacionForm() {
     mostrarMensajeError("password", "Contraseña no valido*");
     condicion = false;
   }
-  if (contrasenia2.value != contrasenia.value.trim() == "") {
+  if (contrasenia2.value != contrasenia.value) {
     mostrarMensajeError("repeatPassword", "Contraseña error*");
     condicion = false;
   }
