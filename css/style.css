@@ -146,11 +146,6 @@ h2 {
         background-color: lightblue;
     }
 }
-@media (orientation: landscape) {
-    h2 {
-        background-color: lightgreen;
-    }
-}
 .gbc {
     width: 45%;
     margin: auto;
