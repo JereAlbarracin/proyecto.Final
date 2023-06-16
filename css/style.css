@@ -124,8 +124,8 @@ a:visited {
 }
 
 .jueguitos {
+    margin: auto;
     max-width: 95%;
-    padding-left: 2rem;
     height: 280px;
 } 
 .juegos {
