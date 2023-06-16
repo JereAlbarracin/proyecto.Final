@@ -86,24 +86,6 @@ a:visited {
     padding-left: 15px;
     
 } 
-
-.video {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    margin: auto;
-    width: 100%;
-    height: 480px;
-    max-width: 90%;
-}
-
-
-.imagenpk {
-    width: 45%;
-    height: 40%;
-    padding: 5px;
-    float: left;
-}
-
 .foot1,
 .foot2 {
     background-color: antiquewhite;
@@ -119,17 +101,32 @@ a:visited {
 .foot {
     padding-left: 5px;
 }
-
-
-
-.listaJuegos {
-    max-width: 95%;
+.video {
     display: flex;
-    color: black;
-    border: 20px;
-    /* padding-left: 5rem; */
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    width: 100%;
+    height: 480px;
+    max-width: 90%;
+}
+.textoHistoria{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 100%;
 }
 
+.imagenpk {
+    width: 45%;
+    height: 40%;
+    padding: 5px;
+    float: left;
+}
+
+.jueguitos {
+    padding-left: 2rem;
+    height: 280px;
+} 
 .juegos {
     background-color: antiquewhite;
     opacity: 0.9;
@@ -140,12 +137,6 @@ a:visited {
     margin: 0.5rem;
 }
 
-.cajaJuegos {
-    font-size: auto;
-    margin: auto;
-    max-width: 30%;
-}
-
 #videoDeJuegos {
     height: 300px;
     width: 300px;
@@ -154,63 +145,25 @@ a:visited {
 @media (orientation: landscape) {
     h2 {
         background-color: lightblue;
+        
     }
-}
-
-.gbc {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.n64 {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.gamecube {
-    width: 100%;
-    margin: auto;
-    float: right;
-
-}
-
-.gba {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.wii {
-    width: auto;
-    height: 300px;
-    margin: auto;
-    float: right;
-}
-
-.nds {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.nintendo3ds {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.switch {
-    width: 100%;
-    margin: auto;
-    float: right;
-}
-
-.celu {
-    width: 100%;
-    margin: auto;
-    float: right;
+    .cajaJuegos {
+        font-size: auto;
+        margin: auto;
+        max-width: 30%;
+    }
+    .listaJuegos {
+        max-width: 95%;
+        display: flex;
+        color: black;
+        border: 20px;
+    }
+    .jueguitos {
+        width: 100%;
+        margin: auto;
+        float: right;
+        height: 280px;
+    }
 }
 
 .pagJuegos {
@@ -278,7 +231,7 @@ a:visited {
     padding-left: 3rem;
 }
 
-.resumenAnime .textoHistoria{
+.resumenAnime{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
